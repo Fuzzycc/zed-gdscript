@@ -2,6 +2,19 @@
 
 This file documents the changes made to the formatter with each release. This project uses [semantic versioning](https://semver.org/spec/v2.0.0.html).
 
+## Release 0.7.0 (2025-10-23)
+
+### Added
+
+- Change the highlighting of docstring comments to stand out from regular comments
+- Highlight property access like in Rust, javascript, and other languages
+- Highlight breakpoints
+- Allow overriding LSP binary path and environment variables in settings
+
+### Changed
+
+- Make a new release script (to make it easier and faster to create releases)
+
 ## Release 0.6.0 (2025-10-10)
 
 ### Added
