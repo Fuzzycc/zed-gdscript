@@ -67,6 +67,14 @@ You can change these settings in Godot by going to *Editor > Editor Settings > N
 }
 ```
 
+### Opening documentation in the Godot editor
+
+You can configure Godot to open the relevant documentation page when running the `editor: go to declaration` command on a built-in piece of code.
+
+First, in Godot, open the Editor Settings. Then, go to Network -> Language Server and turn on Show Native Symbols in Editor. This configures the language server to open documentation pages in the Godot editor on demand.
+
+From there, in Zed, you can use the command `editor: go to declaration` to open the documentation in the editor. Note that it will **not** work with the `editor: go to definition` command (last tested in Godot 4.6.1).
+
 ## Formatting
 
 Zed provides the ability to format files using an external formatter. There are a few options for GDScript formatting.
